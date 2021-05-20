@@ -18,8 +18,10 @@ Chatify is like a YouTube superchat where anyone can join the group and chat wit
 
 ## Guest Credentials
 
+```
 Email: test@gmail.com
 Password: Test@12345
+```
 
 ## Contributing
 
