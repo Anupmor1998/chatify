@@ -10,18 +10,11 @@ Chatify is like a YouTube superchat where anyone can join the group and chat wit
 
 ## Tech Stack
 
-- ReactJS, Chakra-UI, Firebase
+- ReactJS, Firebase
 
 ## Demo
 
 [Click Here](https://chatify-v1.netlify.app/) to play around.
-
-## Guest Credentials
-
-```
-Email: test@gmail.com
-Password: Test@12345
-```
 
 ## Contributing
 
