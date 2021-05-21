@@ -6,21 +6,25 @@ import SignIn from "./components/SignIn/SignIn";
 import loader from "./images/loading.svg";
 import SignOut from "./components/SignOut/SignOut";
 import chat from "./images/chat.png";
+import GithubRibbon from "./components/GitHubRibbon.js/GitHubRibbon";
 function App() {
   const [user, loading] = useAuthState(auth);
   if (loading) {
     return <img className="loader" src={loader} alt="loading..." />;
   }
   return (
-    <div className="App">
-      <header className="header">
-        <img src={chat} alt="logo" />
-        <h1>Chatify</h1>
-        <SignOut />
-      </header>
+    <>
+      <GithubRibbon />
+      <div className="App">
+        <header className="header">
+          <img src={chat} alt="logo" />
+          <h1>Chatify</h1>
+          <SignOut />
+        </header>
 
-      <section>{user ? <ChatRoom /> : <SignIn />}</section>
-    </div>
+        <section>{user ? <ChatRoom /> : <SignIn />}</section>
+      </div>
+    </>
   );
 }
 

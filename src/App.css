@@ -29,14 +29,14 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  min-height: 100vh;
+  min-height: 98vh;
   background-color: #415d43;
 }
 
 main {
   padding: 10px;
   height: 80vh;
-  margin: 10vh 0 10vh;
+  margin: 5vh 0 5vh;
   overflow-y: scroll;
   display: flex;
   flex-direction: column;
